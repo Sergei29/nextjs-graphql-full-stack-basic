@@ -1,3 +1,13 @@
+## API
+
+- the /api folder is where our API or server lives. Since we will be using GraphQL, we need a resolver and a schema to create a GraphQL server. The endpoint of the server will be accessible on the path /api/graphql, which is the entry point of the GraphQL server.
+
+- `api/graphql.js` - GraphQL Server. A GraphQL server exposes your data as a GraphQL API. It gives clients apps the power to ask for exactly the data they need and nothing more.
+
+- `npm run dev` , then visit `http://localhost:3000/api/graphql` to check GraphQL Playground
+
+## Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
