@@ -1,0 +1,21 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 4px;
+  background-color: #eaeaea;
+  width: 300px;
+  border-radius: 5px;
+}
+.Card__imageContainer {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.Card__imageContainer__img {
+  width: 100%;
+}
+.Card__title {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
